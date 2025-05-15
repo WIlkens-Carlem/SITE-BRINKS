@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
         // Se o mouse estiver próximo o suficiente, move o botão
         if (distance < safeDistance) {
             // Calcula a nova posição do botão (na direção oposta ao mouse) com velocidade aumentada
-            const moveX = (distanceX / distance) * 200;
-            const moveY = (distanceY / distance) * 200;
+            const moveX = (distanceX / distance) * 300;
+            const moveY = (distanceY / distance) * 300;
             
             // Obtém as dimensões da janela
             const windowWidth = window.innerWidth;
